@@ -1,0 +1,119 @@
+body {
+    background-image: url(img/texture.png);
+    background-attachment: fixed;
+    margin: 0;
+}
+
+@font-face {
+    font-family: mainTitle;
+    src: url(font/SourceHanSerifSC-Heavy.otf);
+}
+
+.title {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.title img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: -5px 0 0 gray;
+}
+
+nav {
+    display: table;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 5px 10px dimgrey;
+}
+
+nav a {
+    display: table-cell;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav a:nth-child(1) {
+    background-color: black;
+}
+
+nav a:nth-child(2) {
+    background-color: purple;
+}
+
+nav a:nth-child(3) {
+    background-color: darkseagreen;
+}
+
+nav a:nth-child(4) {
+    background-color: gold;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+}
+.main h1 {
+    color: white;
+}
+
+.first {
+    background-color: black;
+}
+
+.second {
+    background-color: purple;
+}
+
+.third {
+    background-color: darkseagreen;
+}
+
+.fourth{
+    background-color: gold;
+}
+
+.introduction {
+    background-color: gold;
+    font-family: mainTitle;
+}
+
+.experience {
+    font-family: mainTitle;
+    background-color: darkseagreen;
+}
+
+.habit {
+    font-family: mainTitle;
+    background-color: lightskyblue;
+}
+
+.assessment {
+    font-family: mainTitle;
+    background-color: rosybrown;
+}
+
+.main p{
+    text-indent: 2rem;
+}
+
+figure img {
+    width: 100%;
+}
+
+figure img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.code {
+    position: fixed;
+    height: 75px;
+    bottom: 0;
+    right: 0;
+}
